@@ -19,8 +19,8 @@ To get started with this project, you need to have the following installed:
 ## Getting Started
 ### Cloning the Repository
 
-    git clone https://github.com/your-username/CMake-GLFW-Template.git
-    cd CMake-GLFW-Template
+    git clone https://github.com/your-username/CMake-Project-Template.git
+    cd CMake-Project-Template
     git submodule update --init --recursive
     
 ### Building the Project
@@ -48,7 +48,7 @@ After building, you can run the application from the build directory:
 
 Project Structure
 
-    CMake-GLFW-Template/
+    CMake-Project-Template/
         ├── CMakeLists.txt            
         ├── dependencies/
         │   ├── glad/
