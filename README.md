@@ -44,9 +44,9 @@ After building, you can run the application from the build directory:
     Application Exec:
     ./build/src/Debug/CMakeTemplateExec
     Test Exec:
-    ./build/test/Debug/CMakeTemplateExec
+    ./build/test/Debug/CMakeTemplateTest
 
-Project Structure
+## Project Structure
 
     CMake-Project-Template/
         ├── CMakeLists.txt            
@@ -64,15 +64,6 @@ Project Structure
         │       ├── Log.cpp
         │       └── Log.h
         └── test/
+            ├── CMakeLists.txt       
+            │   ├── some_test.cpp
 
-
-## Dependencies
-### GLFW
-
-GLFW is used to create windows, handle input, and manage OpenGL contexts. It is cross-platform and easy to use.
-### spdlog
-
-spdlog is a fast and easy-to-use logging library. It provides both synchronous and asynchronous logging capabilities.
-### CMake
-
-CMake is an open-source, cross-platform family of tools designed to build, test, and package software.
