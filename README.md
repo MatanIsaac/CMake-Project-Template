@@ -1,6 +1,6 @@
 # CMake Template with GLFW
 
-This repository serves as a template for a C++ application using CMake, spdlog for fast and efficient logging, and GLFW for window and input management. It provides a basic application class and a loop structure to help kickstart development.
+This repository serves as a template for an OpenGL C++ application using CMake, glad, spdlog for fast and efficient logging, and GLFW for window and input management. It provides a basic application class and a loop structure to help kickstart development.
 ## Features
 
     CMake Build System: Easily configure, build, and manage dependencies using CMake.
